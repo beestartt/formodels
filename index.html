@@ -320,7 +320,6 @@ VERSION : 1.1
   <div class="container">
     <div class="col-md-12">
         <h3 class="title">Deixe seu contato para<span class="themecolor"> mais informações</span></h3>
-          
     </div> 
     <div class="row">
         <div class="col-md-3 col-sm-3"></div>
@@ -334,6 +333,57 @@ VERSION : 1.1
           <label for="mc-email" id="mc-notification"></label>
         </form>
       </div>
+    </div>
+    <br/>
+    <div class="col-md-12">
+        <h3 class="title">Ou nos envie uma <span class="themecolor"> mensagem</span></h3>
+    </div> 
+    <div class="col-md-12">
+
+        <form method="POST" action="https://formspree.io/leonardo@formodelsapp.com.br">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group has-error has-danger">
+                      <label for="form_name">Nome *</label>
+                      <input id="form_name" style="color: #FFFFFF" type="text" name="name" class="form-control" placeholder="Por favor, informe seu nome *" required="required" data-error="Nome é obrigatório.">
+                      <div class="help-block with-errors"><ul class="list-unstyled"></ul></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_email">E-mail *</label>
+                      <input id="form_email" style="color: #FFFFFF" type="email" name="email" class="form-control" placeholder="Por favor, informe seu e-mail *" required="required" data-error="Informe um e-mail válido.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_phone">Telefone</label>
+                      <input id="form_phone" style="color: #FFFFFF" type="tel" name="phone" class="form-control" placeholder="Por favor informe seu telefone">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group has-error has-danger">
+                      <label for="form_message">Mensagem *</label>
+                      <textarea id="form_message" style="color: #FFFFFF" name="message" class="form-control" placeholder="Sua mensagem para a ForModels *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-success btn-send">Enviar mensagem</button>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <p class=""><strong>*</strong> Campos Obrigatórios.</p>
+              </div>
+          </div>
+      </form>
+
     </div>
   </div>
 </section>

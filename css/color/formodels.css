@@ -12,6 +12,20 @@ VERSION : 1.1
     color:#c89b50;/*Defines the theme color*/
 }
 
+.imagemParceiro{
+    width: 120px;
+    object-fit: cover;
+    border-radius:50%;
+    width: 160px;
+    height: 160px;
+    border: 5px solid white
+}
+.partnerText{
+    margin-left:20px;
+}
+.partnerIcon{
+    font-size: 20px !important;
+}
 .theme_background_color,#downloadbt:hover
 {
     background-color:#c89b50; /*Defines the theme bakcground color*/
